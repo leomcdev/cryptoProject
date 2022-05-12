@@ -1,0 +1,11 @@
+#description{
+    font-size: 30px;
+    color:#21CF31;
+}
+body{
+    text-align: center;
+    background-image:linear-gradient(to right,#B5BE27,pink)
+}
+.header{
+    color:#1E2AC8;
+}
