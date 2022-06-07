@@ -15,3 +15,21 @@ switcher.addEventListener('click', function() {
     }
     console.log('current class name: ' + className);
 });
+
+/*
+document.addEventListener("DOMContentLoaded", function(event)) {
+    // count clicks
+    if (window.ethereum) {
+        ethereum.request({ method: "eth_requestAccounts"})
+        .then(() => document.getElementById("count").click())
+        .catch((err) => console.error(err.message));
+        ethereum.on("chainChanged", () => window.location.reload());
+        ethereum.on("accountsChanged", (accounts) => {
+
+        }
+    }
+    else {
+        console.error("Install Metamask");
+    }
+}
+*/ 
